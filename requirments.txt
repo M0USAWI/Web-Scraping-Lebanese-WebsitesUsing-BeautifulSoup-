@@ -1,0 +1,12 @@
+please make sure to enter the current file path of the html files correctly for the code to work 
+
+example : with open("C:/Users/YourUser/Desktop/web scraping/bracketshicart.html", "r", encoding="utf-8") as files:
+
+to run the html interface (streamlit) make sure to install streamlit on your VSCode Terminal by these commands :
+if your using python 3.11 : python -m pip install streamlit
+if your using python 3.13 : C:\Users\YOURUSER\AppData\Local\Programs\Python\Python313\python.exe -m pip install streamlit
+
+after installing streamlit run this command on your VSCode Terminal :
+streamlit run webapp.py
+ORR
+python -m streamlit run webapp.py
